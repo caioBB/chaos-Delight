@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "chaosawakens:uranium_nugget"
+    },
+    "1": {
+      "item": "chaosdelight:pink_cake"
+    },
+    "2": {
+      "item": "chaosawakens:uranium_nugget"
+    },
+    "3": {
+      "item": "chaosawakens:uranium_nugget"
+    },
+    "4": {
+      "item": "chaosawakens:ultimate_apple"
+    },
+    "5": {
+      "item": "chaosawakens:uranium_nugget"
+    },
+    "6": {
+      "item": "minecraft:sugar"
+    },
+    "7": {
+      "item": "chaosdelight:titaniumpiecrust"
+    },
+    "8": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "result": {
+    "item": "chaosdelight:ultimate_apple_pie",
+    "count": 1
+  }
+}

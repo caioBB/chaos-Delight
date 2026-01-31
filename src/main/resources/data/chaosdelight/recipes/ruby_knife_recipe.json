@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1",
+    "2 "
+  ],
+  "key": {
+    "1": {
+      "item": "chaosawakens:ruby"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "chaosdelight:ruby_knife",
+    "count": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "chaosdelight:pink_cake"
+    },
+    {
+      "item": "chaosawakens:uranium_nugget"
+    },
+        {
+      "tag": "forge:salad_ingredients"
+    },
+    {
+      "item": "chaosawakens:uranium_nugget"
+    }
+  ],
+  "result": {
+    "item": "chaosdelight:radioactive_mix"
+  },
+  "experience": 0.35,
+  "cookingtime": 200
+}

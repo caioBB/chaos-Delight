@@ -1,0 +1,9 @@
+{
+  "parent": "chaosdelight:custom/ultimate_pie_2",
+  "textures": {
+    "all": "chaosdelight:block/ultimate_pie_texture",
+    "particle": "chaosdelight:block/ultimate_pie_texture",
+    "0": "chaosdelight:block/ultimate_pie_texture"
+  },
+  "render_type": "cutout"
+}

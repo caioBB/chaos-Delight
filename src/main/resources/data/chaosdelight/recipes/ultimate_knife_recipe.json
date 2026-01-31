@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    "345",
+    "67 "
+  ],
+  "key": {
+    "1": {
+      "item": "chaosawakens:titanium_nugget"
+    },
+    "2": {
+      "item": "chaosawakens:titanium_nugget"
+    },
+    "3": {
+      "item": "chaosawakens:uranium_nugget"
+    },
+    "4": {
+      "item": "chaosawakens:uranium_nugget"
+    },
+    "5": {
+      "item": "chaosawakens:titanium_nugget"
+    },
+    "6": {
+      "item": "chaosawakens:platinum_lump"
+    },
+    "7": {
+      "item": "chaosawakens:uranium_nugget"
+    }
+  },
+  "result": {
+    "item": "chaosdelight:ultimate_knife",
+    "count": 1
+  }
+}

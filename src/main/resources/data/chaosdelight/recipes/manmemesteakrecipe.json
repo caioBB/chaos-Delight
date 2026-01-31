@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:cooked_beef"
+    },
+    {
+      "item": "chaosawakens:cheese"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "chaosdelight:man_meme_steak",
+    "count": 1
+  }
+}

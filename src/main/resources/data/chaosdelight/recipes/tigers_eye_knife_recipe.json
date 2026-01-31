@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1",
+    "2 "
+  ],
+  "key": {
+    "1": {
+      "item": "chaosawakens:tigers_eye"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "chaosdelight:tigers_eye_knife",
+    "count": 1
+  }
+}

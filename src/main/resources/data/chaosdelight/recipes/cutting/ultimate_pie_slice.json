@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "chaosdelight:ultimate_apple_pie"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  },
+  "result": [
+    {
+      "item": "chaosdelight:ultimate_apple_pie_slice",
+      "count": 4
+    }
+  ]
+}

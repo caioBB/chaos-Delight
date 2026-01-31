@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    {
+      "item": "chaosawakens:enchanted_golden_carrot"
+    },
+    {
+      "item": "chaosawakens:golden_melon_slice"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "chaosdelight:enchanted_golden_salad",
+    "count": 1
+  }
+}

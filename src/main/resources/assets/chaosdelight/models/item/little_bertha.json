@@ -1,0 +1,31 @@
+{
+  "loader": "forge:separate_transforms",
+  "gui_light": "front",
+  "base": {
+    "parent": "chaosdelight:custom/little_bertha",
+    "textures": {
+      "0": "chaosdelight:block/little_bertha_texture",
+      "particle": "chaosdelight:item/small_bertha"
+    }
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "chaosdelight:item/small_bertha"
+      }
+    },
+    "fixed": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "chaosdelight:item/small_bertha"
+      }
+    },
+    "ground": {
+      "parent": "item/generated",
+      "textures": {
+        "layer0": "chaosdelight:item/small_bertha"
+      }
+    }
+  }
+}
