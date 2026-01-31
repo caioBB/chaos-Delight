@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "chaosdelight:item/tigers_eye_knife"
+  }
+}

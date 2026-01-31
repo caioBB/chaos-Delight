@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " T ",
+    "IPU",
+    "LI "
+  ],
+  "key": {
+    "T": {
+      "item": "chaosawakens:titanium_nugget"
+    },
+    "I": {
+      "item": "minecraft:ice"
+    },
+    "P": {
+      "item": "chaosdelight:pink_cake"
+    },
+    "U": {
+      "item": "chaosawakens:uranium_nugget"
+    },
+    "L": {
+      "item": "chaosawakens:platinum_lump"
+    }
+  },
+  "result": {
+    "item": "chaosdelight:ultimate_popsicle",
+    "count": 1
+  }
+}

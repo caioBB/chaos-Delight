@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT License"
+
+[[mods]]
+modId="chaosdelight"
+version="2.0.2"
+displayName="Delightful Chaos"
+displayURL="https://modrinth.com/project/delightful-chaos, https://www.curseforge.com/minecraft/mc-mods/delightful-chaos"
+logoFile="logo.png"
+credits="This mod was created by amogusplatina, its an addon that integrates and is inspired by both Chaos Awakens and Farmers Delight, initially made using mcreator but was migrated to a proper IDEA since version 2.0.0"
+authors="amogusplatina"
+description="A mod that adds compatibility beetwen Chaos Awakens and farmers delight"
+
+
+[[dependencies.chaosdelight]]
+    modId = "minecraft"
+    mandatory = true
+    versionRange = "[1.20.1]"
+    ordering = "AFTER"
+    side = "BOTH"
+
+[[dependencies.chaosdelight]]
+    modId = "farmersdelight"
+    mandatory = true
+    versionRange = "[1.20.1,)"
+    ordering = "AFTER"
+    side = "BOTH"
+
+

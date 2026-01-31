@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "chaosawakens:ray_gun"
+    }
+  ],
+  "tool": {
+    "item": "chaosdelight:ultimate_knife"
+  },
+  "result": [
+    {
+      "item": "chaosdelight:pink_cake",
+      "count": 2
+    }
+  ]
+}
