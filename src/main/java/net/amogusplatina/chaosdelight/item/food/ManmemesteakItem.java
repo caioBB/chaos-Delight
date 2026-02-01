@@ -34,7 +34,7 @@ public class ManmemesteakItem extends Item {
 		double z = entity.getZ();
 
 		//effect
-		entity.addEffect(new MobEffectInstance(ModEffects.NOURISHMENT.get(), 2400, 4));
+		entity.addEffect(new MobEffectInstance(ModEffects.NOURISHMENT.get(), 3600, 4));
 
 		if (itemstack.isEmpty()) {
 			return retval;

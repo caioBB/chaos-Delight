@@ -3,14 +3,12 @@
  */
 package net.amogusplatina.chaosdelight.init;
 
-import net.minecraftforge.registries.RegistryObject;
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.registries.DeferredRegister;
-
-import net.minecraft.world.level.block.Block;
-
-import net.amogusplatina.chaosdelight.block.UltimateApplePieBlock;
 import net.amogusplatina.chaosdelight.ChaosdelightMod;
+import net.amogusplatina.chaosdelight.block.UltimateApplePieBlock;
+import net.minecraft.world.level.block.Block;
+import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.RegistryObject;
 
 public class ChaosdelightModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, ChaosdelightMod.MODID);

@@ -1,17 +1,16 @@
 package net.amogusplatina.chaosdelight.init;
 
-import net.amogusplatina.chaosdelight.item.*;
-import net.amogusplatina.chaosdelight.item.food.*;
-import net.minecraftforge.registries.RegistryObject;
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.registries.DeferredRegister;
-
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.BlockItem;
-
-import net.amogusplatina.chaosdelight.item.*;
 import net.amogusplatina.chaosdelight.ChaosdelightMod;
+import net.amogusplatina.chaosdelight.item.food.*;
+import net.amogusplatina.chaosdelight.item.ingredients.CorefuelItem;
+import net.amogusplatina.chaosdelight.item.ingredients.TitaniumpiecrustItem;
+import net.amogusplatina.chaosdelight.item.knifes.*;
+import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.level.block.Block;
+import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.RegistryObject;
 
 public class ChaosdelightModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, ChaosdelightMod.MODID);
@@ -34,17 +33,17 @@ public class ChaosdelightModItems {
 	public static final RegistryObject<Item> ULTIMATE_POPSICLE;
 	static {
 		RADIOACTIVE_MIX = REGISTRY.register("radioactive_mix", RadioactivemealItem::new);
-		RUBY_KNIFE = REGISTRY.register("ruby_knife", Knifes::RubyKnifeItem); //--------
-		TIGERS_EYE_KNIFE = REGISTRY.register("tigers_eye_knife", TigersEyeKnifeItem::new);  //--------
-		ULTIMATE_KNIFE = REGISTRY.register("ultimate_knife", UltimateKnifeItem::new);  //--------
-		AMETHYST_KNIFE = REGISTRY.register("amethyst_knife", Knifes::AmethystknifeItem);  //--------
-		EMERALD_KNIFE = REGISTRY.register("emerald_knife", Knifes::EmeraldKnifeItem); //--------
+		RUBY_KNIFE = REGISTRY.register("ruby_knife", RubyKnifeItem::new);
+		TIGERS_EYE_KNIFE = REGISTRY.register("tigers_eye_knife", TigersEyeKnifeItem::new);
+		ULTIMATE_KNIFE = REGISTRY.register("ultimate_knife", UltimateKnifeItem::new);
+		AMETHYST_KNIFE = REGISTRY.register("amethyst_knife", AmethystKnifeItem::new);
+		EMERALD_KNIFE = REGISTRY.register("emerald_knife", EmeraldKnifeItem::new);
 		GOLDEN_SALAD = REGISTRY.register("golden_salad", GoldenSaladItem::new);
 		ULTIMATE_APPLE_PIE = block(ChaosdelightModBlocks.ULTIMATE_APPLE_PIE);
 		ULTIMATE_APPLE_PIE_SLICE = REGISTRY.register("ultimate_apple_pie_slice", UltimateApplePieSliceItem::new);
 		TITANIUMPIECRUST = REGISTRY.register("titaniumpiecrust", TitaniumpiecrustItem::new);
 		ENCHANTED_GOLDEN_SALAD = REGISTRY.register("enchanted_golden_salad", EnchantedGoldenSaladItem::new);
-		LITTLE_BERTHA = REGISTRY.register("little_bertha", SmallBerthaItem::new); //--------
+		LITTLE_BERTHA = REGISTRY.register("little_bertha", LittleBerthaItem::new);
 		PINK_CAKE = REGISTRY.register("pink_cake", CorefuelItem::new);
 		HERCULES_BEETLE_LEG = REGISTRY.register("hercules_beetle_leg", HerculesbeetlelegItem::new);
 		MAN_MEME_STEAK = REGISTRY.register("man_meme_steak", ManmemesteakItem::new);
