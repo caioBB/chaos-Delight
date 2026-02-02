@@ -13,8 +13,8 @@ import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.entity.LivingEntity;
 
 
-public class UltimatepopsicleItem extends Item {
-	public UltimatepopsicleItem() {
+public class UltimatePopsicleItem extends Item {
+	public UltimatePopsicleItem() {
 		super(new Properties().rarity(Rarity.EPIC).food((new FoodProperties.Builder()).nutrition(7).saturationMod(0.5f).alwaysEat().build()));
 	}
 

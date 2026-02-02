@@ -14,7 +14,7 @@ import net.minecraft.world.entity.LivingEntity;
 
 public class UltimateApplePieSliceItem extends Item {
 	public UltimateApplePieSliceItem() {
-		super(new Properties().rarity(Rarity.EPIC).food((new FoodProperties.Builder()).nutrition(8).saturationMod(1f).alwaysEat().build()));
+		super(new Properties().rarity(Rarity.EPIC).food((new FoodProperties.Builder()).nutrition(8).saturationMod(1f).alwaysEat().build()).fireResistant());
 	}
 
 	@Override

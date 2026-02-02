@@ -14,8 +14,8 @@ import vectorwing.farmersdelight.common.registry.ModEffects;
 
 import java.util.List;
 
-public class ManmemesteakItem extends Item {
-	public ManmemesteakItem() {
+public class ManMemeSteakItem extends Item {
+	public ManMemeSteakItem() {
 		super(new Properties().stacksTo(16).food((new FoodProperties.Builder()).nutrition(12).saturationMod(0.8f).meat().build()));
 	}
 

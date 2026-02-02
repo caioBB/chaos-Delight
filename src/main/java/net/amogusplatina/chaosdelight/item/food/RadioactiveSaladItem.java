@@ -14,9 +14,9 @@ import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
 
-public class RadioactivemealItem extends Item {
-	public RadioactivemealItem() {
-		super(new Properties().stacksTo(16).food((new FoodProperties.Builder()).nutrition(8).saturationMod(0.5f).meat().build()));
+public class RadioactiveSaladItem extends Item {
+	public RadioactiveSaladItem() {
+		super(new Properties().stacksTo(16).food((new FoodProperties.Builder()).nutrition(8).saturationMod(0.5f).build()));
 	}
 
 	@Override
@@ -77,14 +77,4 @@ public class RadioactivemealItem extends Item {
 		else {return InteractionResult.PASS;}
 
 	}
-
-	//public static void OnRightClickEntity(Event event) {
-	//	if(event.getEntity() instanceof LivingEntity livingEntity) {
-	//		event.getEntity().addEffect(new MobEffectInstance(MobEffects.POISON, 240, 1, false, true));
-	//		event.getEntity().addEffect(new MobEffectInstance(MobEffects.CONFUSION, 240, 1, false, true));
-	//		event.getEntity().addEffect(new MobEffectInstance(MobEffects.GLOWING, 1200, 1, false, true));
-	//	}
-	//}
-
-
 }

@@ -2,8 +2,8 @@ package net.amogusplatina.chaosdelight.init;
 
 import net.amogusplatina.chaosdelight.ChaosdelightMod;
 import net.amogusplatina.chaosdelight.item.food.*;
-import net.amogusplatina.chaosdelight.item.ingredients.CorefuelItem;
-import net.amogusplatina.chaosdelight.item.ingredients.TitaniumpiecrustItem;
+import net.amogusplatina.chaosdelight.item.ingredients.CoreFuelItem;
+import net.amogusplatina.chaosdelight.item.ingredients.TitaniumPieCrustItem;
 import net.amogusplatina.chaosdelight.item.knifes.*;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -32,23 +32,23 @@ public class ChaosdelightModItems {
 	public static final RegistryObject<Item> HERCULESBEETLEWING;
 	public static final RegistryObject<Item> ULTIMATE_POPSICLE;
 	static {
-		RADIOACTIVE_MIX = REGISTRY.register("radioactive_mix", RadioactivemealItem::new);
+		RADIOACTIVE_MIX = REGISTRY.register("radioactive_mix", RadioactiveSaladItem::new);
 		RUBY_KNIFE = REGISTRY.register("ruby_knife", RubyKnifeItem::new);
 		TIGERS_EYE_KNIFE = REGISTRY.register("tigers_eye_knife", TigersEyeKnifeItem::new);
 		ULTIMATE_KNIFE = REGISTRY.register("ultimate_knife", UltimateKnifeItem::new);
 		AMETHYST_KNIFE = REGISTRY.register("amethyst_knife", AmethystKnifeItem::new);
 		EMERALD_KNIFE = REGISTRY.register("emerald_knife", EmeraldKnifeItem::new);
 		GOLDEN_SALAD = REGISTRY.register("golden_salad", GoldenSaladItem::new);
-		ULTIMATE_APPLE_PIE = block(ChaosdelightModBlocks.ULTIMATE_APPLE_PIE);
+		ULTIMATE_APPLE_PIE = block(ChaosdelightModBlocks.ULTIMATE_APPLE_PIE, new Item.Properties().fireResistant());
 		ULTIMATE_APPLE_PIE_SLICE = REGISTRY.register("ultimate_apple_pie_slice", UltimateApplePieSliceItem::new);
-		TITANIUMPIECRUST = REGISTRY.register("titaniumpiecrust", TitaniumpiecrustItem::new);
+		TITANIUMPIECRUST = REGISTRY.register("titaniumpiecrust", TitaniumPieCrustItem::new);
 		ENCHANTED_GOLDEN_SALAD = REGISTRY.register("enchanted_golden_salad", EnchantedGoldenSaladItem::new);
 		LITTLE_BERTHA = REGISTRY.register("little_bertha", LittleBerthaItem::new);
-		PINK_CAKE = REGISTRY.register("pink_cake", CorefuelItem::new);
-		HERCULES_BEETLE_LEG = REGISTRY.register("hercules_beetle_leg", HerculesbeetlelegItem::new);
-		MAN_MEME_STEAK = REGISTRY.register("man_meme_steak", ManmemesteakItem::new);
-		HERCULESBEETLEWING = REGISTRY.register("herculesbeetlewing", HerculesbeetlewingItem::new);
-		ULTIMATE_POPSICLE = REGISTRY.register("ultimate_popsicle", UltimatepopsicleItem::new);
+		PINK_CAKE = REGISTRY.register("pink_cake", CoreFuelItem::new);
+		HERCULES_BEETLE_LEG = REGISTRY.register("hercules_beetle_leg", HerculesBeetleLegItem::new);
+		MAN_MEME_STEAK = REGISTRY.register("man_meme_steak", ManMemeSteakItem::new);
+		HERCULESBEETLEWING = REGISTRY.register("herculesbeetlewing", HerculesBeetleWingItem::new);
+		ULTIMATE_POPSICLE = REGISTRY.register("ultimate_popsicle", UltimatePopsicleItem::new);
 	}
 
 

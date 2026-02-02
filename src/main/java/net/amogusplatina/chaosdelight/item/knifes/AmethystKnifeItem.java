@@ -4,17 +4,13 @@ import net.amogusplatina.chaosdelight.item.EnchantedKnifeItem;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.enchantment.Enchantment;
+import vectorwing.farmersdelight.common.item.KnifeItem;
 
 import java.util.HashMap;
 import java.util.Map;
 
 
-public class AmethystKnifeItem extends EnchantedKnifeItem {
-    public static Map<Enchantment, Integer> getBaseEnchants() {
-        Map<Enchantment, Integer> baseEnchants = new HashMap<>();
-        return baseEnchants;
-    }
-
+public class AmethystKnifeItem extends KnifeItem {
     public AmethystKnifeItem() {
         super(new Tier() {
                   public int getUses() {return 2700;}
@@ -27,7 +23,6 @@ public class AmethystKnifeItem extends EnchantedKnifeItem {
                 , 5
                 , -2f
                 , new Properties().setNoRepair()
-                , getBaseEnchants()
         );
 
     }
