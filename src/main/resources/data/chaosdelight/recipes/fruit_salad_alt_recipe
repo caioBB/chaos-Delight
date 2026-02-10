@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "112",
+    "233",
+    "4  "
+  ],
+  "key": {
+    "1": {
+      "item": "chaosawakens:cherries"
+    },
+    "2": {
+      "item": "chaosawakens:peach"
+    },
+    "3": {
+      "item": "chaosawakens:strawberry"
+    },
+    "4": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "result": {
+    "item": "farmersdelight:fruit_salad",
+    "count": 1
+  }
+}
