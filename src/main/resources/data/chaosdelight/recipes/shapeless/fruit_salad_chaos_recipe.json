@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    { "item": "chaosawakens:peach" },
+    { "item": "chaosawakens:peach" },
+    { "item": "chaosawakens:cherries" },
+    { "item": "chaosawakens:cherries" },
+    { "item": "chaosawakens:strawberry" },
+    { "item": "chaosawakens:strawberry" },
+    { "item": "minecraft:bowl" }
+  ],
+  "result": {
+    "item": "farmersdelight:fruit_salad",
+    "count": 1
+  }
+}

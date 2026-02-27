@@ -1,7 +1,7 @@
-package net.amogusplatina.chaosdelight.init;
+package net.amogusplatina.chaosdelight.common.init;
 
 import net.amogusplatina.chaosdelight.ChaosdelightMod;
-import net.amogusplatina.chaosdelight.block.UltimatePieBlock;
+import net.amogusplatina.chaosdelight.common.block.UltimatePieBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.registries.DeferredRegister;

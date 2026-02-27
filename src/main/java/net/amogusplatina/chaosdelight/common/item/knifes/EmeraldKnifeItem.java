@@ -1,6 +1,6 @@
-package net.amogusplatina.chaosdelight.item.knifes;
+package net.amogusplatina.chaosdelight.common.item.knifes;
 
-import net.amogusplatina.chaosdelight.item.EnchantedKnifeItem;
+import net.amogusplatina.chaosdelight.common.item.EnchantedKnifeItem;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.Tier;

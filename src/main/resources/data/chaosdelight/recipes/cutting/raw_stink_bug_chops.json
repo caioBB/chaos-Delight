@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "chaosawakens:dead_stink_bug"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  },
+  "result": [
+    {
+      "item": "chaosdelight:raw_stink_bug_chops",
+      "count": 2
+    }
+  ]
+}

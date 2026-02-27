@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "chaosdelight:raw_stink_bug_chops"
+  },
+  "result": "chaosdelight:cooked_stink_bug_chops",
+  "experience": 0.35,
+  "cookingtime": 100
+}

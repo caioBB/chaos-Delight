@@ -1,13 +1,8 @@
-package net.amogusplatina.chaosdelight.item.knifes;
+package net.amogusplatina.chaosdelight.common.item.knifes;
 
-import net.amogusplatina.chaosdelight.item.EnchantedKnifeItem;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.enchantment.Enchantment;
 import vectorwing.farmersdelight.common.item.KnifeItem;
-
-import java.util.HashMap;
-import java.util.Map;
 
 
 public class AmethystKnifeItem extends KnifeItem {

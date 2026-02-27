@@ -1,4 +1,4 @@
-package net.amogusplatina.chaosdelight.block;
+package net.amogusplatina.chaosdelight.common.block;
 
 import com.mojang.datafixers.util.Pair;
 import net.minecraft.core.BlockPos;

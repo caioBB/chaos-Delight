@@ -1,4 +1,4 @@
-package net.amogusplatina.chaosdelight.init;
+package net.amogusplatina.chaosdelight.common.init;
 
 
 import net.amogusplatina.chaosdelight.ChaosdelightMod;
@@ -27,9 +27,11 @@ public class ChaosdelightModTabs {
 				tabData.accept(ChaosdelightModItems.LITTLE_BERTHA.get().getDefaultInstance());
                 //ingredients
 				tabData.accept(ChaosdelightModItems.HERCULES_BEETLE_LEG.get());
-				tabData.accept(ChaosdelightModItems.HERCULESBEETLEWING.get());
+				tabData.accept(ChaosdelightModItems.HERCULES_BEETLE_WING.get());
+				tabData.accept(ChaosdelightModItems.RAW_STINK_BUG_CHOPS.get());
+				tabData.accept(ChaosdelightModItems.COOKED_STINK_BUG_CHOPS.get());
 				tabData.accept(ChaosdelightModItems.PINK_CAKE.get());
-				tabData.accept(ChaosdelightModItems.TITANIUMPIECRUST.get());
+				tabData.accept(ChaosdelightModItems.TITANIUM_PIE_CRUST.get());
 				//foods
 				tabData.accept(ChaosdelightModBlocks.ULTIMATE_APPLE_PIE.get().asItem());
 				tabData.accept(ChaosdelightModItems.ULTIMATE_APPLE_PIE_SLICE.get());
