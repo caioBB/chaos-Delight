@@ -14,8 +14,8 @@ import net.minecraft.world.level.Level;
 import java.util.List;
 import java.util.Random;
 
-public class StinkBugChops extends Item {
-    public StinkBugChops(Properties pProperties) {
+public class StinkBugChopsItem extends Item {
+    public StinkBugChopsItem(Properties pProperties) {
         super(pProperties);
     }
 

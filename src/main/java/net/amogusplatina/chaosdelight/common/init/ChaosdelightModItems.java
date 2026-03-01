@@ -1,6 +1,7 @@
 package net.amogusplatina.chaosdelight.common.init;
 
 import net.amogusplatina.chaosdelight.ChaosdelightMod;
+import net.amogusplatina.chaosdelight.common.item.FoilBlockItem;
 import net.amogusplatina.chaosdelight.common.item.food.*;
 import net.amogusplatina.chaosdelight.common.item.knifes.*;
 import net.minecraft.world.food.FoodProperties;
@@ -47,7 +48,7 @@ public class ChaosdelightModItems {
 		ENCHANTED_GOLDEN_SALAD = REGISTRY.register("enchanted_golden_salad", EnchantedGoldenSaladItem::new);
 		GOLDEN_SALAD = REGISTRY.register("golden_salad", GoldenSaladItem::new);
 
-		ULTIMATE_APPLE_PIE = block(ChaosdelightModBlocks.ULTIMATE_APPLE_PIE, new Item.Properties().fireResistant());
+		ULTIMATE_APPLE_PIE = block(ChaosdelightModBlocks.ULTIMATE_APPLE_PIE, new Item.Properties().fireResistant(), true);
 		ULTIMATE_APPLE_PIE_SLICE = REGISTRY.register("ultimate_apple_pie_slice", UltimateApplePieSliceItem::new);
 		TITANIUM_PIE_CRUST = REGISTRY.register("titanium_pie_crust", () -> new Item(new Item.Properties().fireResistant()));
 		ULTIMATE_POPSICLE = REGISTRY.register("ultimate_popsicle", UltimatePopsicleItem::new);
@@ -61,18 +62,15 @@ public class ChaosdelightModItems {
 		HERCULES_BEETLE_WING = REGISTRY.register("hercules_beetle_wing", () -> new Item(
 				new Item.Properties().food((new FoodProperties.Builder()).nutrition(4).saturationMod(0.3f).build())));
 
-		RAW_STINK_BUG_CHOPS = REGISTRY.register("raw_stink_bug_chops", () -> new StinkBugChops((
+		RAW_STINK_BUG_CHOPS = REGISTRY.register("raw_stink_bug_chops", () -> new StinkBugChopsItem((
 				new Item.Properties().food(new FoodProperties.Builder().nutrition(2).saturationMod(0.5f).build()))));
-		COOKED_STINK_BUG_CHOPS = REGISTRY.register("cooked_stink_bug_chops", () -> new StinkBugChops((
+		COOKED_STINK_BUG_CHOPS = REGISTRY.register("cooked_stink_bug_chops", () -> new StinkBugChopsItem((
 				new Item.Properties().food(new FoodProperties.Builder().nutrition(4).saturationMod(0.5f).build()))));
 	}
 
 
-	private static RegistryObject<Item> block(RegistryObject<Block> block) {
-		return block(block, new Item.Properties());
-	}
 
-	private static RegistryObject<Item> block(RegistryObject<Block> block, Item.Properties properties) {
-		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), properties));
+	private static RegistryObject<Item> block(RegistryObject<Block> block, Item.Properties properties, boolean isFoil) {
+		return REGISTRY.register(block.getId().getPath(), () -> isFoil ? new FoilBlockItem(block.get(), properties) : new BlockItem(block.get(), properties));
 	}
 }

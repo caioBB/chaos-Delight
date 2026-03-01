@@ -1,9 +1,11 @@
 {
   "parent": "chaosdelight:custom/ultimate_pie_3",
   "textures": {
-    "all": "chaosdelight:block/ultimate_pie_texture",
-    "particle": "chaosdelight:block/ultimate_pie_texture",
-    "0": "chaosdelight:block/ultimate_pie_texture"
+    "particle": "chaosdelight:block/ultimate_pie_bottom",
+    "0": "chaosdelight:block/ultimate_pie_bottom",
+    "1": "chaosdelight:block/ultimate_pie_inner",
+    "2": "chaosdelight:block/ultimate_pie_side",
+    "3": "chaosdelight:block/ultimate_pie_top"
   },
-  "render_type": "cutout"
+  "render_type": "solid"
 }
