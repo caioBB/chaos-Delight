@@ -4,6 +4,7 @@ import net.amogusplatina.chaosdelight.common.item.EnchantedKnifeItem;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.crafting.Ingredient;
+import io.github.chaosawakens.core.template.CAItemTierTemplates;
 import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.item.enchantment.Enchantments;
 
@@ -19,17 +20,10 @@ public class RubyKnifeItem extends EnchantedKnifeItem {
     }
 
     public RubyKnifeItem() {
-        super(new Tier() {
-                  public int getUses() {return 3000;}
-                  public float getSpeed() {return 4f;}
-                  public float getAttackDamageBonus() {return 7f;}
-                  public int getLevel() {return 4;}
-                  public int getEnchantmentValue() {return 2;}
-                  public Ingredient getRepairIngredient() {return Ingredient.of();}
-              }
+        super(CAItemTierTemplates.RUBY
                 , 5
                 , -2f
-                , new Properties().rarity(Rarity.RARE).fireResistant().setNoRepair()
+                , new Properties().rarity(Rarity.UNCOMMON).fireResistant()
                 , getBaseEnchants()
         );
 

@@ -1,0 +1,9 @@
+{
+  "parent": "farmersdelight:block/pie",
+  "textures": {
+    "particle": "chaosdelight:block/ultimate_pie_top",
+    "bottom": "chaosdelight:block/ultimate_pie_bottom",
+    "side": "chaosdelight:block/ultimate_pie_side",
+    "top": "chaosdelight:block/ultimate_pie_top"
+  }
+}

@@ -17,9 +17,10 @@ public class ChaosdelightModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, ChaosdelightMod.MODID);
 	public static final RegistryObject<Item> RADIOACTIVE_MIX;
 	public static final RegistryObject<Item> RUBY_KNIFE;
-	public static final RegistryObject<Item> TIGERS_EYE_KNIFE;
+	public static final RegistryObject<Item> KYANITE_KNIFE;
+	public static final RegistryObject<Item> CRYSTALWOOD_KNIFE;
 	public static final RegistryObject<Item> ULTIMATE_KNIFE;
-	public static final RegistryObject<Item> AMETHYST_KNIFE;
+	public static final RegistryObject<Item> KUNZITE_KNIFE;
 	public static final RegistryObject<Item> EMERALD_KNIFE;
 	public static final RegistryObject<Item> GOLDEN_SALAD;
 	public static final RegistryObject<Item> ULTIMATE_APPLE_PIE;
@@ -38,9 +39,10 @@ public class ChaosdelightModItems {
 		RADIOACTIVE_MIX = REGISTRY.register("radioactive_mix", RadioactiveSaladItem::new);
 
 		RUBY_KNIFE = REGISTRY.register("ruby_knife", RubyKnifeItem::new);
-		TIGERS_EYE_KNIFE = REGISTRY.register("tigers_eye_knife", TigersEyeKnifeItem::new);
+		KYANITE_KNIFE = REGISTRY.register("kyanite_knife", KyaniteKnifeItem::new);
+		CRYSTALWOOD_KNIFE = REGISTRY.register("crystalwood_knife", CrystalwoodKnifeItem::new);
 		ULTIMATE_KNIFE = REGISTRY.register("ultimate_knife", UltimateKnifeItem::new);
-		AMETHYST_KNIFE = REGISTRY.register("amethyst_knife", AmethystKnifeItem::new);
+		KUNZITE_KNIFE = REGISTRY.register("kunzite_knife", KunziteKnifeItem::new);
 		EMERALD_KNIFE = REGISTRY.register("emerald_knife", EmeraldKnifeItem::new);
 		LITTLE_BERTHA = REGISTRY.register("little_bertha", LittleBerthaItem::new);
 

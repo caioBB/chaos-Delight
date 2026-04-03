@@ -20,10 +20,13 @@ public class ChaosdelightModTabs {
 
 				//knives
 				tabData.accept(ChaosdelightModItems.ULTIMATE_KNIFE.get().getDefaultInstance());
-				tabData.accept(ChaosdelightModItems.EMERALD_KNIFE.get().getDefaultInstance());
 				tabData.accept(ChaosdelightModItems.RUBY_KNIFE.get().getDefaultInstance());
-				tabData.accept(ChaosdelightModItems.AMETHYST_KNIFE.get());
-				tabData.accept(ChaosdelightModItems.TIGERS_EYE_KNIFE.get());
+				tabData.accept(ChaosdelightModItems.KUNZITE_KNIFE.get());
+				tabData.accept(ChaosdelightModItems.EMERALD_KNIFE.get().getDefaultInstance());
+				//cats eye
+				//pink tourmaline
+				tabData.accept(ChaosdelightModItems.KYANITE_KNIFE.get().getDefaultInstance());
+				tabData.accept(ChaosdelightModItems.CRYSTALWOOD_KNIFE.get().getDefaultInstance());
 				tabData.accept(ChaosdelightModItems.LITTLE_BERTHA.get().getDefaultInstance());
                 //ingredients
 				tabData.accept(ChaosdelightModItems.HERCULES_BEETLE_LEG.get());

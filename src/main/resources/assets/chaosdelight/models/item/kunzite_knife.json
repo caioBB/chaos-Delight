@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "chaosdelight:item/amethyst_knife"
+    "layer0": "chaosdelight:item/kunzite_knife"
   }
 }

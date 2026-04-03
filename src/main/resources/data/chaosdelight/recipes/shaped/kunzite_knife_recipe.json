@@ -7,14 +7,14 @@
   ],
   "key": {
     "1": {
-      "item": "chaosawakens:amethyst"
+      "item": "chaosawakens:kunzite"
     },
     "2": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "chaosdelight:amethyst_knife",
+    "item": "chaosdelight:kunzite_knife",
     "count": 1
   }
 }
